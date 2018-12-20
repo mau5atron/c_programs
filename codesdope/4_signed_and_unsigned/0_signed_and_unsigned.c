@@ -54,7 +54,4 @@ int main()
 			// Suppose we are adding two numbers. The first number is of type int and the second number is of type float Since we cannot add an int and a float, both numbers have to be of the same data type ie, either both are int or both are float. Since float is a larger data type than int, therefore int variable gets converted into float automatically and then both the float variables add up. This automatic converion is called implicit conversion. 
 
 		// all the character variables get converted to integers while performing arithmetic operations or in any other such expression. 
-
-		
-
 }

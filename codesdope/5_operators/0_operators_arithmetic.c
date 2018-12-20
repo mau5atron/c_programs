@@ -26,6 +26,11 @@ int main()
 	// product
 	printf("a * b = %d\n", (a * b));
 
+	// divides
+	printf("a / b = %f\n", (float)a/b);
+
 	// remainder(modulus(modulo))
 	printf("a modulo b = %d\n", (a % b));
+
+	return 0;
 }
