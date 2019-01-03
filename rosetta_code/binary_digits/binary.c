@@ -6,7 +6,7 @@
 char *bin(uint32_t x);
 
 int main(void) {
-	for (size_t i = 0; i < 20; ++i) {
+	for (size_t i = 0; i < 100000000; ++i) {
 		char *binstr = bin(i);
 		printf("%s\n", binstr);
 		free(binstr);
