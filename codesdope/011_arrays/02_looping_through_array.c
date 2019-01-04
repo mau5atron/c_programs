@@ -10,6 +10,7 @@ int main()
 		scanf("%d", &n[i]);
 	}
 	// print element values
+	// NESTED FOR LOOPS DONT ACTUALLY HAVE TO BE NESTED LMAO
 	for(j = 0; j < 10; ++j){
 		printf("n[%d] = %d\n", j, n[j]);
 	} 
