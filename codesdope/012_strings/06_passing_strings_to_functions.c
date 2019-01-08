@@ -11,6 +11,7 @@ int main()
 	char arr[30];
 	printf("Enter string: \n> ");
 	fgets(arr, 30, stdin); 
+	// what you're inputting, size of input, going in or out
 	// do not use gets, it is unsafe
 	display(arr);
 	return 0;
