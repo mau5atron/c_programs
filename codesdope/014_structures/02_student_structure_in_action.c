@@ -19,6 +19,7 @@ int main()
 
 	p2.roll_no = 2;
 	strcpy(p2.name, "Sam");
+	// always use strcpy to assign a string value to a string variable
 
 	p2.phone_number = 12423235;
 	p3.roll_no = 3;
@@ -39,4 +40,13 @@ int main()
 	dash_line();
 
 	return 0;
-}
+}	
+
+// always use strcpy to assign a string value to a string variable
+/*
+	The reason for this is that in C, we cannot equate two strings (i.e. arrays). If we had written p1.name = "Brown";, that would have given an error. Therefore, bby writing strcpy(p1.name, "Brown");, we are copying the string 'Brown' to the string variable p1.name.
+*/ 
+
+// This is just to show that can also initialize a structure this way
+struct student p1 = {1, "Brown", 122324};
+// Structures use continuous memory locations
