@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// instead of a macro here we create a function instead
 float CircleArea(int r){
 	float a;
 	a = 3.14*r*r;
