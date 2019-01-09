@@ -26,6 +26,13 @@ int main()
 		(strlen), (strcpy), (strcmp)
 
 		strlen(s1) calculates the length of s1
+
 		Note: white space is also calculated in length of string
+		Also: strlen does not count '\0' while calculating the length of a string 
+ 
+		strcpy(s1, s2) copies the second string s2 to the first string s1
+
+		strcmp(s1, s2) compares two strings and finds out whether they are same or different. It compares the two strings character by character till there is a mismatch. If the two strings are identical, it returns a 0. If not, then it returns the difference between the ASCII values of the first non-matching pair of characters.
 	*/
+
 }
