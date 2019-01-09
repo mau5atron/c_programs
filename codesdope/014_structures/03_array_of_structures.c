@@ -46,12 +46,7 @@ int main()
 		printf("Phone number: %d\n", stud[i].phone_number);
 		dash_line();
 	}
-
+	
 	return 0;
 }
-
-
-
-
-
 
