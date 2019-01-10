@@ -86,7 +86,27 @@ main()
 	// for cards info 
 	printf("Player 1 has:\t\t\tPlayer2 has: \n");
 	for(i = 0; i < 26; ++i){
-		
+		printf("%d\t%s\t%s\t%d\t%s\t%s\n",
+		 i + 1, player1[i].value, player1[i].suite,
+		 i + 1, player2[i].value, player2[i].suite);
+	}
+
+	printf("Your input will not be visible.\n");
+
+	int p1score = 0, p2score = 0;
+	char a[10], b[10];
+	char c[10], d[10];
+
+	for(j = 0; j < 26; ++j){
+		system("stty -echo"); // echo off, input will not be visible
+		if(j % 2 == 0){
+			int x = 0;
+			do{
+				printf("Player1: type value and suite: \n> ");
+				scanf("%s %s", &a[0], &b[0]);
+				
+			}
+		}
 	}
 
 }
