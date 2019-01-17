@@ -2,6 +2,7 @@
 
 #define READ "r"
 #define WRITE "w"
+#define MAXCHAR 40
 
 int main()
 {
@@ -11,12 +12,12 @@ int main()
 	*/ 
 
 	FILE *fp;
-	char str[40];
+	char str[MAXCHAR];
 	int n;
 	char *filename = "welcome_04.txt"; // declaring file name 
 
 
-	fp = fopen(filename, WRITE);
+	fp = fopen(filename, WRITE); // opens file to write to it 
 	printf("Enter a string and a number: \n> ");
 	scanf("%s %d", str, &n); // reads from keyboard and assigns pointers to values
 
