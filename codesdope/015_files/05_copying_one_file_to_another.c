@@ -11,6 +11,7 @@
 #define READ "r" // macro for read
 #define WRITE "w" // macro for write 
 #define MAXCHAR 100 // max char count for string literal array 
+
 int main()
 {
 	FILE *s, *t, *u; // defining pointers 
