@@ -22,6 +22,8 @@
 /*
 	calloc initializes the allocated memory to zero value whereas malloc 
 	does not
+
+	calloc is used to allocate memory to mostly arrays and structures
 */ 
 
 int main()
