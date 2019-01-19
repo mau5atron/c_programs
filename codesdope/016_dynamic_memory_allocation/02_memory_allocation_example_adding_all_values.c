@@ -19,18 +19,21 @@ int main()
 		return 0;
 	}
 
-	printf("Enter %d elements: \n", limit);
+	// asks user for input on how many elements will be in the array
+	printf("Enter %d elements: \n", limit); 
 	for(i = 0; i < limit; ++i){
 		printf("Enter element %d\n", i + 1);
 		scanf("%d", (arr + i));
+		// sums up all elements
 		sum = sum + *(arr + i);
 	}
 
+	// prints out all the array elements 
 	printf("Array elements are: \n");
 	for(i = 0; i < limit; ++i){
 		printf("%2d\n", *(arr + i));
 	}
-
+	// prints out the elements summed up
 	printf("\nSum of all elements in the array: %d\n", sum);
 	return 0;
 }
