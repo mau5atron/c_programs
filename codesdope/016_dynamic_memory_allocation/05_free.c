@@ -16,6 +16,33 @@
 */ 
 
 int main()
-{
+{	
+	int *arr; // pointer to memory, integer array
+	int limit, i; // limit n, iterator, pointer;
 
+	printf("Enter the number of elements: \n> ");
+	scanf("%d", &limit);
+
+	arr = (int*)malloc(limit *  sizeof(int));
+
+	if(arr == NULL){
+		printf("Memory cannot be allocated/Insufficient memory allocated\n");
+		return 0; // end program
+	}
+
+	// ask user for input 
+	printf("Enter %d elements\n", limit);
+	for(i = 0; i < limit; ++i){
+		printf("Enter element %d\n", i + 1);
+		scanf("%d", (arr + i));
+	}
+
+	// print out all array elements
+	printf("Entered array elements: \n");
+	for(i = 0; i < limit; ++i){
+		printf("%2d\n", *(arr + i));
+	}
+	
+	free(arr); // releasing allocated memory 
+	return 0;	
 }
