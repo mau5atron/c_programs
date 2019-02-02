@@ -31,3 +31,24 @@ int calcYear(int year1){
 	return (year1 + TARGET_AGE);
 }
 
+/*
+	The main() function 
+
+	The only component required in every executable C program is the main()
+	function 
+
+	You can leave the void out and the program still works with most 
+	compilers. The ANSI Standard states that you sbould include the word 
+	"void" so you know that there is nothing sent to the main() function 
+
+	Within the braces are statements that make up the body of the program. 
+	Under normal circumstances, program execution starts at the first 
+	statement in main() and terminates at the last statement in main()
+
+	Per the ANSI Standard, the only statement that you need to include 
+	in this example is the 
+
+		return 
+
+	statement on line 22.
+	*/ 
